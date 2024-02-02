@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="assets/images/pinar_blue_2.png">
+    <title>PINAR Soap & Detergent</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__logo"><a href="#"><img class="headlogo" src="assets/images/pinar_blue_2.png" alt=""></a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#stats">Stats</a></li>
+          <li class="link"><a href="#blog">Gallery</a></li>
+          <li class="link"><a href="#contactUs">Contact Us</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Crafting cleanliness, one bubble at a time</h1>
+        <a href="#about"><button class="btn btn__secondary">
+          Read More
+          <span><i class="ri-arrow-right-double-line"></i></span>
+        </button></a>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__content">
+            <p class="section__subheader">About Us</p>
+            <h2 class="section__header">Company History</h2>
+            <p class="para">
+              Founded in 2000 E.C in Addis Ababa, our factory began as a small, 
+              family-operated soap workshop, renowned for its high-quality, handcrafted 
+              products. Over the decades, we evolved with the changing times, expanding
+               into detergents in the 2005s/2007s to meet the growing demand for more 
+               efficient cleaning solutions. This transition marked a significant milestone, 
+               leading to growth beyond local markets and the development of innovative,
+                eco-friendly products. 
+            </p>
+            <br />
+            <p class="para">
+              Today, our factory is a testament to this enduring legacy, combining
+               traditional craftsmanship with modern technology to deliver a range of 
+               products that are both effective and environmentally responsible.
+            </p>
+          </div>
+          <div class="about__list">
+            <div class="about__item">
+              <span><i class="ri-global-fill"></i></span>
+              <h4>Your Trusted Industry</h4>
+            </div>
+            <div class="about__item">
+              <span><i class="ri-bar-chart-fill"></i></span>
+              <h4>Innovating Exceptional Solutions</h4>
+            </div>
+            <div class="about__item">
+              <span><i class="ri-thumb-up-fill"></i></span>
+              <h4>Success through human resources</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="section__container stats__container">
+        <div class="stats__content">
+          <p class="section__subheader">Company</p>
+          <h2 class="section__header">Our Stats</h2>
+          <p class="para">
+            Established in 2000/2008, our factory produces over 10,000 tons of 
+            detergents annually, serving thousands globally. We pride ourselves on 
+            86% resource efficiency and significant community contributions, 
+            underscored by our high customer satisfaction and industry 
+            accolades.
+          </p>
+          <div class="stats__grid">
+            <div class="stats__card">
+              <span><i class="ri-building-4-line"></i></span>
+              <h4>3</h4>
+              <p>Local Branches</p>
+            </div>
+            <div class="stats__card">
+              <span><i class="ri-user-fill"></i></span>
+              <h4>10</h4>
+              <p>Qualified Engineers</p>
+            </div>
+            <div class="stats__card">
+              <span><i class="ri-user-smile-line"></i></span>
+              <h4>150+</h4>
+              <p>Work Facilities</p>
+            </div>
+            <div class="stats__card">
+              <span><i class="ri-trophy-fill"></i></span>
+              <h4>4</h4>
+              <p>Acknolegments </p>
+            </div>
+          </div>
+        </div>
+        <div class="stats__image">
+          <img src="assets/images/packsoap.jpg" alt="stats" />
+          <img src="assets/images/soapsrobo.jpg" alt="stats" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__content">
+          <p class="section__subheader">More Info</p>
+          <h2 class="section__header">
+            We Believe In Building Long Lasting Business Relationships
+          </h2>
+          <p class="para">
+            While our soap and detergent products are enjoyed worldwide, we deeply 
+            value local engagement. Our extensive network, spanning across 12 Cities, 
+            enables us to deliver with the personalized care of a local business, all 
+            while harnessing the strength of our global presence. This unique blend 
+            ensures that each product meets both international standards and local 
+            needs.
+          </p>
+          <p class="para" id="moreText" style="display:none;">
+            While our soap and detergent products are enjoyed worldwide, we deeply 
+            value local engagement. Our extensive network, spanning across 12 Cities, 
+            enables us to deliver with the personalized care of a local business, all 
+            while harnessing the strength of our global presence. This unique blend 
+            ensures that each product meets both international standards and local 
+            needs.
+          </p>
+          <div class="banner__btns">
+            <button onclick="showMore()" id="readMor" class="btn btn__primary">
+              Read More
+              <span><i class="ri-arrow-right-double-line"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <p class="section__subheader">Our Posts</p>
+        <h2 class="section__header">Gallery</h2>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="assets/images/line.jpg" alt="blog" />
+            <div>
+              <span><i class="ri-user-line"></i> Our Project Manager</span>
+              <span><i class="ri-time-line"></i> Jun 28, 2023</span>
+            </div>
+            <h4>Production Line Management</h4>
+            <p>
+              Overseeing the manufacturing process, which includes mixing, compounding, and packaging.
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="assets/images/quali2.jpg" alt="blog" />
+            <div>
+              <span><i class="ri-user-line"></i> Quality Control Expert</span>
+              <span><i class="ri-time-line"></i> Nov 22, 2023</span>
+            </div>
+            <h4>Quality Control and Testing</h4>
+            <p>
+              Ensuring that the raw materials and final products meet industry standards and safety regulations.
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="assets/images/packaging.jpg" alt="blog" />
+            <div>
+              <span><i class="ri-user-line"></i> Packaging Expertise</span>
+              <span><i class="ri-time-line"></i> Mar 15, 2023</span>
+            </div>
+            <h4>Packaging and Labeling</h4>
+            <p>
+              Designing and executing the packaging process, which includes labeling and branding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section class="customer">
+      <div class="section__container customer__container">
+        <p class="section__subheader">Testimonials</p>
+        <div class="customer__review">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    I'm consistently impressed by Pinar's gentle yet effective detergents and their outstanding customer service.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/paps.jpg" alt="customer" />
+                    <div>
+                      <h4>Yohanes Fekadu</h4>
+                      <h5>CEO of ELICT</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    Pinar's eco-friendly products are a perfect blend of environmental consciousness and top-notch cleaning efficiency.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/joel.jpg" alt="customer" />
+                    <div>
+                      <h4>Eyouel Alemayehu</h4>
+                      <h5>Ful-Stack Developer</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    Every product from Pinar is a testament to their commitment to innovation and reliability in cleaning solutions.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/customer-3.jpg" alt="customer" />
+                    <div>
+                      <h4>Simeon Daniel</h4>
+                      <h5>Electrical Engineer</h5>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- <section class="subscribe" id="subscribe">
+      <div class="section__container subscribe__container">
+        <p class="section__subheader">Newsletter</p>
+        <h2 class="section__header">
+          Subscribe To Get The Latest News & Updates
+        </h2>
+        <form action="/">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <button class="btn btn__primary">Subscribe</button>
+        </form>
+        <p class="para">
+          By sumbitting this form, you agree to the
+          <a href="#">privacy policy</a> and <a href="#">terms of use.</a>
+        </p>
+      </div>
+    </section> -->
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <img class="footerLogo" src="assets/images/pinar_blue_2.svg" alt="">
+          <p>
+            We lead in cleanliness innovation and industry excellence, surpassing customer expectations with every product.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <div class="footer__links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#stats">Stats</a>
+            <a href="#blog">Gallery</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Our Services</h4>
+          <div class="footer__links">
+            <a href="#">Laundry Soap</a>
+            <a href="#">Dishwashing Soap </a>
+            <a href="#">Hand Soap</a>
+            <a href="#">Beauty Soap </a>
+          </div>
+        </div>
+        
+        <div id="contactUs" class="footer__col">
+          <h4>Contact Us</h4>
+          <div class="footer__links">
+            <p>
+              Addis Ababa, Ethiopia
+            </p>
+            <a href="https://maps.app.goo.gl/sZAedrBJ31jhPyGs5">Bole Omedad Bldg 3<sup>rd </sup>  floor </a>
+            <a href="tel: 0913168916">0913168916 </a>
+            <a href="telL 0913168916">0932184139 </a>
+            <a href="tel: 0913168916">0112332322 </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 PINAR Soap & Detergent. All rights reserved. Developed By <a href="https://linktr.ee/joelalex1316">EYOUEL</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
