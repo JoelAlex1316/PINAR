@@ -167,6 +167,10 @@ nav {
   font-family: Cambria;
 }
 
+.headlinee{
+  text-transform: uppercase;
+}
+
 .header__container .btn {
   margin: auto;
 }
